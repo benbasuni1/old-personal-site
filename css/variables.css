@@ -44,18 +44,7 @@ header {
   margin: 0 var(--gutter);
 }
 
-.btn {
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  display: inline-block;
-  padding: 0.75em 1.5em;
-  border-radius: 0.35em;
-
-  font-size: var(--btn-font-size);
-  background-color: var(--btn-bg);
-}
+#about, #contact, .trump, .search-sort, .nba-stats { transition: opacity .7s ease-in-out; }
 
 .intro {
   --btn-font-size: 1.1em;

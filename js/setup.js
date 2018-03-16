@@ -1,8 +1,8 @@
-/*Sections */
-  const header   = document.querySelector('header');
-  const intro    = document.querySelector('#intro');
-  const projects = document.querySelector('.projects');
-  const footer   = document.querySelector('footer');
+/* Sections */
+  const header    = document.querySelector('header');
+  const intro     = document.querySelector('#intro');
+  const projects  = document.querySelector('#home');
+  const footer    = document.querySelector('footer');
 
 /* Header */
   const homeButton    = document.querySelector('.home');
@@ -24,3 +24,4 @@
   const linkedIn  = document.querySelector('.linkedin-button');
   const twitter   = document.querySelector('.twitter-button');
 
+about.style.opacity = contact.style.opacity = 0;

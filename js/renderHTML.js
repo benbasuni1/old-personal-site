@@ -6,7 +6,8 @@ const unRender = node => {
 
 const renderInit = () => {
   render(headerHTML, document.querySelector('header'));
-  render(introHTML, document.querySelector('#intro'));
+  render(avatarHTML, document.querySelector('#avatar'));
+  render(homeHTML, document.querySelector('#home'));
   render(trumpHTML, document.querySelector('.trump'));
   render(searchSortHTML, document.querySelector('.search-sort'));
   render(nbaStatsHTML, document.querySelector('.nba-stats'));
@@ -15,19 +16,26 @@ const renderInit = () => {
 
 const renderHomePage = () => {
   unRender([contact, about]);
-  render(trumpHTML, document.querySelector('.trump'));
-  render(searchSortHTML, document.querySelector('.search-sort'));
-  render(nbaStatsHTML, document.querySelector('.nba-stats'));
+  render(homeHTML, home);
+  render(trumpHTML, trump);
+  render(searchSortHTML, searchSort);
+  render(nbaStatsHTML, nbaStats);
+  setTimeout(() => trump.style.opacity = searchSort.style.opacity = nbaStats.style.opacity = 1, 100);
+  about.style.opacity = contact.style.opacity = 0;
 }
 
 const renderAboutPage = () => {
   unRender([trump, searchSort, nbaStats, contact]);
-  render(aboutHTML, document.querySelector('#about'));
+  render(aboutHTML, about);
+  setTimeout(() => about.style.opacity = 1, 100);
+  contact.style.opacity = trump.style.opacity = searchSort.style.opacity = nbaStats.style.opacity = home.style.opacity = 0;
 }
 
 const renderContactPage = () => {
   unRender([trump, searchSort, nbaStats, about]);
-  render(contactHTML, document.querySelector('#contact'));
+  render(contactHTML, contact);
+  setTimeout(() => contact.style.opacity = 1, 100);
+  about.style.opacity = trump.style.opacity = searchSort.style.opacity = nbaStats.style.opacity = 0;
 }
 
 renderInit();

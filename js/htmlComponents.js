@@ -8,9 +8,10 @@ const headerHTML = `
   <p>Games, Projects, and My Inner World</p>
 `;
 
-const introHTML = `
-  <img class="img-featured" src="img/ben-avatar.png" alt="VR">
-  <p>Welcome to my Page! 😊</p>
+const avatarHTML = `<img class="img-featured" src="img/ben-avatar.png" alt="VR">`;
+
+const homeHTML = `
+  <p>Projects!</p>
 `;
 
 const aboutHTML = `

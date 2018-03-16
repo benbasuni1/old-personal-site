@@ -9,4 +9,3 @@ github.addEventListener('click', () => window.location = "https://www.github.com
 instagram.addEventListener('click', () => window.location = "https://www.instagram.com/benbasuni");
 linkedIn.addEventListener('click', () => window.location = "https://www.linkedin.com/in/benbasuni");
 twitter.addEventListener('click', () => window.location = "https://www.twitter.com/stampedethegoat");
-
