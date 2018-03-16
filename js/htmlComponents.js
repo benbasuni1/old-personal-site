@@ -46,7 +46,6 @@ const searchSortHTML = `
 const nbaStatsHTML = `
   <a href="https://trumpy-birds.herokuapp.com">
     <div class="photo">
-      <img src="./img/trumpy-birds.png">
       <div class="photo-overlay">
         <h3>NBA Stats</h3>
       </div>

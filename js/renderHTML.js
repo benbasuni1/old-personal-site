@@ -14,16 +14,19 @@ const renderInit = () => {
 }
 
 const renderHomePage = () => {
+  unRender([contact, about]);
   render(trumpHTML, document.querySelector('.trump'));
   render(searchSortHTML, document.querySelector('.search-sort'));
   render(nbaStatsHTML, document.querySelector('.nba-stats'));
 }
 
 const renderAboutPage = () => {
+  unRender([trump, searchSort, nbaStats, contact]);
   render(aboutHTML, document.querySelector('#about'));
 }
 
 const renderContactPage = () => {
+  unRender([trump, searchSort, nbaStats, about]);
   render(contactHTML, document.querySelector('#contact'));
 }
 

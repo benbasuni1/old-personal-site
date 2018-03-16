@@ -1,16 +1,7 @@
 /* Header Buttons */
-homeButton.addEventListener('click', () => {
-  unRender([contact, about]);
-  renderHomePage();
-});
-aboutButton.addEventListener('click', () => {
-  unRender([trump, searchSort, nbaStats, contact]);
-  renderAboutPage();
-});
-contactButton.addEventListener('click', () => {
-  unRender([trump, searchSort, nbaStats, about]);
-  renderContactPage();
-});
+homeButton.addEventListener('click', () => renderHomePage());
+aboutButton.addEventListener('click', () => renderAboutPage());
+contactButton.addEventListener('click', () => renderContactPage());
 
 /* Social Media Footers */
 facebook.addEventListener('click', () => window.location = "https://www.facebook.com/benbasuni");
