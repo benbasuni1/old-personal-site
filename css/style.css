@@ -46,6 +46,10 @@ footer {
   -webkit-clip-path: polygon(0 18%, 100% 0, 100% 100%, 0% 100%);
 }
 
+.nba-stats, .search-sort {
+  display: none;
+}
+
 footer img {
   margin: 5px 15px;
   transition-duration: .4s;
