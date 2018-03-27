@@ -1,3 +1,5 @@
+@import "style.css";
+
 /* VARIABLES --------------------------------------------------- */
 
 :root {
@@ -40,9 +42,7 @@ header {
 
 /* COMPONENT STYLES ----------------------------------------------- */
 
-.main-nav li {
-  margin: 0 var(--gutter);
-}
+.main-nav li { margin: 0 var(--gutter); }
 
 #about, #contact, .trump, .search-sort, .nba-stats { transition: opacity .7s ease-in-out; }
 
@@ -56,14 +56,10 @@ header {
   transition-duration: .5s;
 }
 
-.photo-overlay:hover {
-  opacity: 1;
-}
+.photo-overlay:hover { opacity: 1; }
 
 /* MEDIA QUERIES -------------------------------------------------- */
 
 @media (min-width: 768px) {
-  .main-content {
-    max-width: var(--max-width);
-  }
+  .main-content { max-width: var(--max-width); }
 }

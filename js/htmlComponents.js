@@ -15,7 +15,7 @@ const homeHTML = `
 `;
 
 const aboutHTML = `
-  <p>About Page!</p>
+  <p>Full Stack Software Engineer</p>
 `;
 
 const contactHTML = `
