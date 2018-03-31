@@ -11,11 +11,11 @@ const headerHTML = `
 const avatarHTML = `<img class="img-featured" src="img/ben-avatar.png" alt="VR">`;
 
 const homeHTML = `
-  <p>Projects!</p>
+  <p></p>
 `;
 
 const aboutHTML = `
-  <p>Full Stack Software Engineer</p>
+  <p>Front End Engineer</p>
 `;
 
 const contactHTML = `
@@ -33,12 +33,12 @@ const trumpHTML = `
   </a>
 `;
 
-const searchSortHTML = `
-  <a href="https://trumpy-birds.herokuapp.com">
+const jediHTML = `
+  <a href="https://jedi-reactx.herokuapp.com">
     <div class="photo">
-      <img src="./img/trumpy-birds.png">
+      <img src="./img/jedi.png">
       <div class="photo-overlay">
-        <h3>Search & Sorts</h3>
+        <h3>Order of the Jedi</h3>
       </div>
     </div>
   </a>
@@ -60,6 +60,7 @@ const footerHTML = `
   <img class="github-button" src="./img/github.png">
   <img class="linkedin-button" src="./img/linkedin.png">
   <img class="twitter-button" src="./img/twitter.png">
+  <img class="treehouse-button" src="./img/treehouse-icon.png">
   <div>&copy;2018 Ben Basuni</div> 
 `;
 

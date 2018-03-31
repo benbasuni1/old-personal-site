@@ -9,7 +9,7 @@ const renderInit = () => {
   render(avatarHTML, document.querySelector('#avatar'));
   render(homeHTML, document.querySelector('#home'));
   render(trumpHTML, document.querySelector('.trump'));
-  render(searchSortHTML, document.querySelector('.search-sort'));
+  render(jediHTML, document.querySelector('.jedi'));
   render(nbaStatsHTML, document.querySelector('.nba-stats'));
   render(footerHTML, document.querySelector('footer'));
 }

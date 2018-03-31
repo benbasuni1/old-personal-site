@@ -13,9 +13,9 @@
   const contact = document.querySelector('#contact');
 
 /* Projects */
-  const trump      = document.querySelector('.trump');
-  const searchSort = document.querySelector('.search-sort');
-  const nbaStats   = document.querySelector('.nba-stats');
+  const trump    = document.querySelector('.trump');
+  const jedi     = document.querySelector('.jedi');
+  const nbaStats = document.querySelector('.nba-stats');
 
 /* Footer */
   const facebook  = document.querySelector('.facebook-button');
@@ -23,5 +23,6 @@
   const instagram = document.querySelector('.instagram-button');
   const linkedIn  = document.querySelector('.linkedin-button');
   const twitter   = document.querySelector('.twitter-button');
+  const treehouse = document.querySelector('.treehouse-button');
 
 about.style.opacity = contact.style.opacity = 0;

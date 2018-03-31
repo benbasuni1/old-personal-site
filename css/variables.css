@@ -44,7 +44,7 @@ header {
 
 .main-nav li { margin: 0 var(--gutter); }
 
-#about, #contact, .trump, .search-sort, .nba-stats { transition: opacity .7s ease-in-out; }
+#about, #contact, .trump, .nba-stats { transition: opacity .7s ease-in-out; }
 
 .intro {
   --btn-font-size: 1.1em;
