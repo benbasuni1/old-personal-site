@@ -18,24 +18,24 @@ const renderHomePage = () => {
   unRender([contact, about]);
   render(homeHTML, home);
   render(trumpHTML, trump);
-  render(searchSortHTML, searchSort);
+  render(jediHTML, jedi);
   render(nbaStatsHTML, nbaStats);
-  setTimeout(() => trump.style.opacity = searchSort.style.opacity = nbaStats.style.opacity = 1, 100);
+  setTimeout(() => trump.style.opacity = jedi.style.opacity = nbaStats.style.opacity = 1, 100);
   about.style.opacity = contact.style.opacity = 0;
 }
 
 const renderAboutPage = () => {
-  unRender([trump, searchSort, nbaStats, contact]);
+  unRender([trump, jedi, nbaStats, contact]);
   render(aboutHTML, about);
   setTimeout(() => about.style.opacity = 1, 100);
-  contact.style.opacity = trump.style.opacity = searchSort.style.opacity = nbaStats.style.opacity = home.style.opacity = 0;
+  contact.style.opacity = trump.style.opacity = jedi.style.opacity = nbaStats.style.opacity = home.style.opacity = 0;
 }
 
 const renderContactPage = () => {
-  unRender([trump, searchSort, nbaStats, about]);
+  unRender([trump, jedi, nbaStats, about]);
   render(contactHTML, contact);
   setTimeout(() => contact.style.opacity = 1, 100);
-  about.style.opacity = trump.style.opacity = searchSort.style.opacity = nbaStats.style.opacity = 0;
+  about.style.opacity = trump.style.opacity = jedi.style.opacity = nbaStats.style.opacity = 0;
 }
 
 renderInit();
